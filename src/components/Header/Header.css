@@ -20,11 +20,13 @@
 }
 
 .header__title {
+  font-weight: 900;
   font-size: 3rem;
   margin-bottom: 0.6rem;
 }
 
 .header__subtitle {
+  font-weight: 500;
   font-size: 1rem;
   margin-bottom: 3rem;
 }
@@ -32,7 +34,7 @@
 .header__link {
   text-decoration: none;
   color: #fff;
-  font-weight: bold;
+  font-weight: 500;
   font-size: 18px;
   text-align: center;
   border: 1px solid #fff;

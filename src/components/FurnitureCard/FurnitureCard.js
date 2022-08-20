@@ -8,7 +8,7 @@ function FurnitureCard(props) {
       <a  className='card__link'>link</a>
       <div className="card__info">
         <h2 className='card__title'>{props.title}</h2>
-        <p className='cadr__price'>Price: {props.price}</p>
+        <p className='card__price'>&#8381; {props.price}</p>
       </div>
     </li>
   );

@@ -1,11 +1,8 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
-import Header from '../Header/Header';
-import '../../vendor/fonts/fonts.css'
 import Main from '../Main/Main';
-import Footer from '../Footer/Footer';
-
 import PageNotFound from '../PageNotFound/PageNotFound';
+import '../../vendor/fonts/fonts.css';
 
 function App(props) {
   return (
