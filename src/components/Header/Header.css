@@ -1,0 +1,86 @@
+.header {
+  max-width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url("../../images/hero.avif");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.header__info {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center; 
+  color: #fff;
+}
+
+.header__content {
+  padding: 0 5px;
+}
+
+.header__title {
+  font-size: 3rem;
+  margin-bottom: 0.6rem;
+}
+
+.header__subtitle {
+  font-size: 1rem;
+  margin-bottom: 3rem;
+}
+
+.header__link {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: center;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  padding: 10px 25px;
+  letter-spacing: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  z-index: 1;
+  transition: all 0.8s ease-in-out;
+  cursor: pointer;
+}
+
+.header__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  background-color: #fff1e6;
+  transform: scaleX(0);
+  transition: all 0.5s ease-in-out;
+  border-radius: 5px;
+}
+
+.header__link:hover::before {
+  transform: scaleX(1);
+}
+
+.header__link:hover {
+  color: #000;
+  border: 1px solid transparent;
+  letter-spacing: 3px;
+}  
+
+.header__link:active {
+  transform: scale(1.1);
+  transition: .1s linear;
+}
+
+@media screen and (max-width: 400px) {
+  .header__title {
+    font-size: 2rem;
+  }
+}

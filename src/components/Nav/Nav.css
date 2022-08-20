@@ -1,0 +1,141 @@
+.nav {
+  max-width: 100%;
+  padding: 0.3rem 5rem;
+  transition: all 0.8s ease-in-out;
+}
+
+.nav__fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 20;
+  background: #fff;
+  background-color: #fff1e6;
+  box-shadow: 2px 2px 4px #ccc;
+}
+
+.nav__logo {
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav__logo:hover {
+  opacity: 0.7;
+}
+
+.nav__logo:active {
+  transform: scale(1.1);
+  transition: .1s linear;
+}
+
+.nav__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__list {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.nav__item {
+  margin-right: 2rem;
+  transition: all 0.5s ease-in-out;
+}
+
+.nav__item:hover {
+  transform: scale(1.1);
+}
+
+.nav__link {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.1rem;
+  position: relative;
+  cursor: pointer;
+}
+
+.nav__link::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: #000;
+  left: 0;
+  bottom: 0;
+  border-radius: 2px;
+  transform: scale(0, 1);
+  transition: all 0.5s ease-in-out;
+}
+
+.nav__link:hover::after {
+  transform: scale(1, 1);
+  z-index: 3;
+}
+
+@media screen and (max-width: 600px) {
+  .nav {
+    padding: 0.2rem 1rem;
+  }
+
+  .nav__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s linear, opacity 0.3s linear;
+  }
+
+  .nav__overlay_active {
+    visibility: visible;
+    opacity: 1;
+  }
+
+  .nav__list {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 50;
+    width: 70%;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    padding: 5rem;
+    background-color: #fff1e6;
+    overflow: auto;
+    transform: translateX(100%);
+    transition: all 0.8s ease-in-out;
+  }
+
+  .nav__list.nav__list_active {
+    transform: translateX(0);
+  }  
+
+  .nav__item {
+    margin-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .nav__link {
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav__list {
+    width: 100%;
+  }
+}

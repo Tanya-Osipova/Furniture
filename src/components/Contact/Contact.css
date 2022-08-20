@@ -1,0 +1,44 @@
+.contact {
+  padding-bottom: 15rem;
+}
+
+.contact__list {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+  background-color: #fff1e6;
+  width: 30%;
+}
+
+.contact__item_center {
+  background-color: #e6ffe6;
+}
+
+.contact__icon {
+  margin-bottom: 0.2rem;
+  font-size: 2rem;
+  color: #000;
+}
+
+.contact__data {
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .contact__list {
+    flex-direction: column;
+    width: calc(100% - 2 * 10px);
+    margin: auto;
+  }
+  .contact__item {
+    width: 100%;
+  }
+}
