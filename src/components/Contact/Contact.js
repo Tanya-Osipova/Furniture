@@ -7,6 +7,12 @@ import './Contact.css';
 function Contact(props) {
   return (
     <section className='contact'>
+      <div className="contact__text-container">
+        <p className='contact__subtitle'>
+          По всем интересующим вас вопросам вы всегда можете обратиться по указанным телефонам
+          или написать на почту.
+        </p>
+      </div>
       <ul className="contact__list">
         <li className='contact__item'>
           <p className='contact__icon'><FaEnvelope /></p>

@@ -54,7 +54,7 @@ function Nav() {
               duration={1000}
               onClick={() => setSidebarActive(!sidebarActive)}
             >
-              Kitchen
+              кухонная мебель
             </Link>
           </li>
           <li className='nav__item'>
@@ -67,7 +67,7 @@ function Nav() {
               duration={1000}
               onClick={() => setSidebarActive(!sidebarActive)}
             >
-              Contact
+              Связаться
             </Link>
           </li>
         </ul>

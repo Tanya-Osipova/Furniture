@@ -8,7 +8,6 @@ export default [
   {
     id: 2,
     title: 'title',
-    category: 'sofa',
     price: 65,
     image: 'https://images.unsplash.com/photo-1538944570562-2c9cb7857097?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fGZ1cm5pdHVyZSUyMGtpdGNoZW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60',
    

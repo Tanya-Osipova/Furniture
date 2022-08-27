@@ -11,9 +11,9 @@ function Main(props) {
     <>
       <Header />
       <main>
-        <Title id='furniture-card-list'>Our Kitchen Collection</Title>
+        <Title id='furniture-card-list'>кухонная мебель</Title>
         <FurnitureCardList />
-        <Title id='contact'>Contact us</Title>
+        <Title id='contact'>ВСЕГДА НА СВЯЗИ</Title>
         <Contact />
       </main>
       <Footer />

@@ -23,6 +23,7 @@
   font-weight: 900;
   font-size: 3rem;
   margin-bottom: 0.6rem;
+  text-transform: capitalize;
 }
 
 .header__subtitle {
@@ -33,6 +34,7 @@
 
 .header__link {
   text-decoration: none;
+  text-transform: capitalize;
   color: #fff;
   font-weight: 500;
   font-size: 18px;
@@ -81,8 +83,18 @@
   transition: .1s linear;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
   .header__title {
     font-size: 2rem;
+  }
+
+  .header__link {
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .header__link {
+    width: 80%;
   }
 }

@@ -20,7 +20,7 @@ function Header() {
           <div className="header__info">
           <div className='header__content'>
             <h1 className='header__title'>
-              Kitchen furniture
+              кухонная мебель
             </h1>
             <p className='header__subtitle'>
               Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita, aspernatur.
@@ -33,7 +33,7 @@ function Header() {
               offset={-50} 
               duration={500}
             >
-              Furniture
+              кухонная мебель
             </Link>
           </div>
         </div>
