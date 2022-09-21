@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaEnvelope } from 'react-icons/fa';
 import { FaPhoneAlt } from 'react-icons/fa';
-import { FaSourcetree } from 'react-icons/fa';
+import { FaMapMarkerAlt } from 'react-icons/fa';
 import './Contact.css';
 
 function Contact(props) {
@@ -19,7 +19,7 @@ function Contact(props) {
           <p className='conatct__data'>email@email.com</p>
         </li>
         <li className='contact__item contact__item_center'>
-          <p className='contact__icon'><FaSourcetree /></p>
+          <p className='contact__icon'><FaMapMarkerAlt /></p>
           <p className='conatct__data'>location</p>
         </li>
         <li className='contact__item'>

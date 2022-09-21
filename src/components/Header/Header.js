@@ -6,7 +6,7 @@ import './Header.css';
 
 function Header() {
 
-  const props = useSpring({
+  const HeaderAnim = useSpring({
     from: { opacity: 0, transform: 'translateY(-4rem)' },
     to: { opacity: 1, transform: 'translateY(0)' }, 
     delay: 500,
@@ -14,9 +14,9 @@ function Header() {
   })
   
   return (
-    <header className='header'>
+    <header className='header' id='home'>
       <Nav />
-      <animated.div style={props}>
+      <animated.div style={HeaderAnim}>
           <div className="header__info">
           <div className='header__content'>
             <h1 className='header__title'>

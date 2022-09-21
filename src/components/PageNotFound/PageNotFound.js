@@ -8,9 +8,9 @@ function PageNotFound() {
     <div className="page-not-found">
       <div className='page-not-found__content'>
         <img className='page-not-found__logo' src={logo} alt="logo" />
-        <p className='page-not-found__title'>404 - Page not found</p>
+        <p className='page-not-found__title'>404 - Страница не найдена</p>
         <Link className="page-not-found__link" to="/">
-          Go to homepage
+          Назад
         </Link>
       </div>
     </div>

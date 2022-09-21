@@ -35,5 +35,17 @@ export default [
     title: 'title',
     price: 5677,
     image: 'https://images.unsplash.com/photo-1617850687451-ac13e5534ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZ1cm5pdHVyZSUyMGtpdGNoZW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60'
-  }
+  },
+   {
+    id: 7,
+    title: 'title',
+    price: 5677,
+    image: 'https://images.unsplash.com/photo-1617850687451-ac13e5534ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZ1cm5pdHVyZSUyMGtpdGNoZW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60'
+  },
+   {
+    id: 8,
+    title: 'title',
+    price: 5677,
+    image: 'https://images.unsplash.com/photo-1617850687451-ac13e5534ba6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTV8fGZ1cm5pdHVyZSUyMGtpdGNoZW58ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60'
+  },
 ]
