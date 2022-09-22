@@ -31,7 +31,15 @@ function Nav(props) {
       >
       </div>
       <div className="nav__content">
-        <Logo />
+        <Link 
+          to="home"
+          spy={true} 
+          smooth={true}
+          offset={-50} 
+          duration={1000}
+        >
+          <Logo />
+        </Link>
         <Hamburger 
           sidebarActive={sidebarActive}
           onClick={() => setSidebarActive(!sidebarActive)}
