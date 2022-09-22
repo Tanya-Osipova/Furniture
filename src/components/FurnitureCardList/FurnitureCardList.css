@@ -22,4 +22,8 @@
   .card__list {
     grid-template-columns: auto;
   }
+
+  .card-wrapper {
+    padding: 2rem 0;
+  }
 }
