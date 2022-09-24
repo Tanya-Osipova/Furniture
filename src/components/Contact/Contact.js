@@ -20,7 +20,7 @@ function Contact(props) {
         </li>
         <li className='contact__item contact__item_center'>
           <p className='contact__icon'><FaMapMarkerAlt /></p>
-          <p className='conatct__data'>location</p>
+          <p className='conatct__data'>местонахождение</p>
         </li>
         <li className='contact__item'>
           <p className='contact__icon'><FaPhoneAlt /></p>

@@ -47,7 +47,7 @@
   font-size: 1rem;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 800px) {
   .contact__list {
     flex-direction: column;
     width: calc(100% - 2 * 10px);

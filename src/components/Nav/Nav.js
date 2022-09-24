@@ -60,7 +60,7 @@ function Nav(props) {
                 <img 
                   className='logo' 
                   src={logo} 
-                  alt="logo" 
+                  alt="Лого" 
                 />
                 : `Главная`
               }

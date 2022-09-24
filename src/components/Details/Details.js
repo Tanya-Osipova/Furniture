@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { useParams, useHistory } from "react-router-dom";
 import { FaBackward } from "react-icons/fa";
 import { useSpring, animated } from 'react-spring';
@@ -14,7 +15,7 @@ function Details(props) {
   const cardAnim = useSpring({
     from: { opacity: 0, transform: 'translateY(-4rem)' },
     to: { opacity: 1, transform: 'translateY(0)' }, 
-    delay: 500,
+    delay: 300,
     config: {duration: 1000},
   })
   
@@ -22,7 +23,9 @@ function Details(props) {
     <animated.div style={cardAnim}>
     <section className='details'>
       <div className="details__button-container">
-        <Logo />
+        <Link to='/'>
+          <Logo />
+        </Link>
         <button 
           type='button'
           className='details__back-button'
@@ -39,6 +42,7 @@ function Details(props) {
           <h2 className='details__title'>{thisProduct.title}</h2>
           <hr className='details__line' />
           <p className='details__detail'>&#8381; {thisProduct.price}</p>
+          <p className='details__detail'>Цвет: {thisProduct.color}</p>
         </div>
       </div>
     </section>

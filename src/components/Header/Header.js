@@ -17,7 +17,7 @@ function Header() {
     <header className='header' id='home'>
       <Nav />
       <animated.div style={HeaderAnim}>
-          <div className="header__info">
+        <div className="header__info">
           <div className='header__content'>
             <h1 className='header__title'>
               кухонная мебель
