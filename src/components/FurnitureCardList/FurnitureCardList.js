@@ -5,7 +5,7 @@ import Button from '../Button/Button';
 import data from '../../data';
 import './FurnitureCardList.css';
 
-function FurnitureCardList(props) {
+const FurnitureCardList = () => {
   const [more, setMore] = useState(6);
   const moreCards = 3;
 

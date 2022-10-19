@@ -5,7 +5,7 @@ import PageNotFound from '../PageNotFound/PageNotFound';
 import Details from'../../components/Details/Details';
 import '../../vendor/fonts/fonts.css';
 
-function App(props) {
+const App = () => {
   return (
     <div>
       <Switch>

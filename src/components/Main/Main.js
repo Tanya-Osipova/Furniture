@@ -6,20 +6,18 @@ import Header from '../Header/Header';
 import Title from '../Title/Title';
 import ScrollToTopButton from '../ScrollToTopButton/ScrollToTopButton';
 
-function Main(props) {
-  return (
-    <>
-      <Header />
-      <main>
-        <Title id='furniture-card-list'>кухонная мебель</Title>
-        <FurnitureCardList />
-        <Title id='contact'>ВСЕГДА НА СВЯЗИ</Title>
-        <Contact />
-      </main>
-      <Footer />
-      <ScrollToTopButton />
-    </>
-  );
-}
+const Main = () => (
+  <>
+    <Header />
+    <main>
+      <Title id='furniture-card-list'>кухонная мебель</Title>
+      <FurnitureCardList />
+      <Title id='contact'>ВСЕГДА НА СВЯЗИ</Title>
+      <Contact />
+    </main>
+    <Footer />
+    <ScrollToTopButton />
+  </>
+);
 
 export default Main;

@@ -5,7 +5,7 @@ import Logo from '../Logo/Logo';
 import logo from '../../images/logo/logo.png'
 import './Nav.css';
 
-function Nav(props) {
+const Nav = (props) => {
   const [sidebarActive, setSidebarActive] = useState(false);
   const [fixedNav, setFixedNav] = useState(false);
   const windowHeight = 100;

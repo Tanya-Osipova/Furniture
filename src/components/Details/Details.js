@@ -7,7 +7,7 @@ import data from '../../data';
 import Logo from '../Logo/Logo';
 import './Details.css';
 
-function Details(props) {
+const Details = (props) => {
   const {productId} = useParams()
   const thisProduct = data.find(prod => prod.id.toString() === productId);
   const history = useHistory();

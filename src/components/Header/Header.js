@@ -4,7 +4,7 @@ import { useSpring, animated } from 'react-spring';
 import Nav from '../Nav/Nav';
 import './Header.css';
 
-function Header() {
+const Header = () => {
 
   const HeaderAnim = useSpring({
     from: { opacity: 0, transform: 'translateY(-4rem)' },
